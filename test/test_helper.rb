@@ -14,4 +14,5 @@ require 'active_support/testing/autorun'
 Thread.abort_on_exception = true
 
 # Show backtraces for deprecated behavior for quicker cleanup.
-ActiveSupport::Deprecation.debug = true
+# DEPRECATION WARNING: Calling debug= on ActiveSupport::Deprecation is deprecated and will be removed from Rails
+# ActiveSupport::Deprecation.debug = true
